@@ -2,7 +2,7 @@ package buscacustouniforme;
 
 import java.util.ArrayList;
 
-public class Tabuleiro {
+public class Tabuleiro {    // É o tabuleiro com a listagem dos valores
 
     ArrayList<Integer> valores;
 
@@ -32,7 +32,11 @@ public class Tabuleiro {
     }
     
     public int movimenta(int pos){
+        int aux = pos;
         
+        // todos os movimentos serão colocados aqui
+        
+        return aux;
     }
     
     public int baixo(int pos){

@@ -2,7 +2,7 @@ package buscacustouniforme;
 
 import buscacustouniforme.Tabuleiro;
 
-public class No {
+public class No {           // O nó é o estado de cada tabuleiro na árvore
 
     private Tabuleiro tab;
 

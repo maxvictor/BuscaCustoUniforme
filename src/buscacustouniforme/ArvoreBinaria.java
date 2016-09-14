@@ -26,6 +26,10 @@ public class ArvoreBinaria {
     }
 
     public void esquerda(ArrayList<No> nos){
-        
+        // mover para o nó a esquerda.
+    }
+    
+    public void direita(ArrayList<No> nos){
+        // mover para o nó a direita.
     }
 }
