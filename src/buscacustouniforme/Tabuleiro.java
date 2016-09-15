@@ -31,45 +31,11 @@ public class Tabuleiro {    // É o tabuleiro com a listagem dos valores
         return aux;
     }
     
-    public int movimenta(int pos){
+    public void trocaValores(int pos){
         int aux = pos;
         
         // todos os movimentos serão colocados aqui
         
-        return aux;
     }
     
-    public int baixo(int pos){
-        int posi = pos;
-        
-        if(posi == 0 || posi == 1 || posi == 2 || posi == 3 || posi == 4 || posi == 5){
-            posi = posi + 3;
-        }
-        return posi;
-    }
-    
-    public int cima(int pos){
-        int posi = pos;
-        
-        if(posi == 3 || posi == 4 || posi == 5 || posi == 6 || posi == 7 || posi == 8){
-            posi = posi - 3;
-        }
-        return posi;
-    }
-    
-    public int esquerda(int pos){
-        int posi = pos;
-        
-        if(posi == 1 || posi == 2 || posi == 4 || posi == 5 || posi == 7 || posi == 8)
-            posi = posi - 1;
-        return posi;
-    }
-    
-    public int direita(int pos){
-        int posi = pos;
-        
-        if(posi == 0 || posi == 1 || posi == 3 || posi == 4 || posi == 6 || posi == 7)
-            posi = posi + 1;
-        return posi;
-    }
 }

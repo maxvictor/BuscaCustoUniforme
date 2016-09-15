@@ -2,11 +2,11 @@ package buscacustouniforme;
 
 import java.util.ArrayList;
 
-public class ArvoreBinaria {
+public class Arvore {
     private No raiz;            // raiz é o primeiro nó da árvore, o que é gerado aleatoriamente
     private ArrayList<No> nos;  // Esse array vai armazenar todos os nós da árvore
-
-    public ArvoreBinaria() {
+    
+    public Arvore() {
     }
 
     public No getRaiz() {
@@ -23,13 +23,5 @@ public class ArvoreBinaria {
 
     public void setNos(ArrayList<No> nos) {
         this.nos = nos;
-    }
-
-    public void esquerda(ArrayList<No> nos){
-        // mover para o nó a esquerda.
-    }
-    
-    public void direita(ArrayList<No> nos){
-        // mover para o nó a direita.
     }
 }
